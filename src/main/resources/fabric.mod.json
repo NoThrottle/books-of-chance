@@ -1,0 +1,36 @@
+{
+	"schemaVersion": 1,
+	"id": "book-of-chance",
+	"version": "1.0",
+	"name": "Book Of Chance",
+	"description": "Forked from WCBBEX \"Modification of Critical Hit\", adds configurable base attack crit rate, and cooldown.",
+
+	"authors": [
+		"Nothrottle","WCBBEX"
+	],
+	"contact": {
+		"email": "inquire@nothrottle.com",
+		"homepage": "https://modrinth.com/mod/modification-of-critical-hit"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/books-of-chance/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+          "com.booksofchance.Main"
+		]
+	},
+	"mixins": [
+      "books-of-chance.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.11.0",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+
+}
